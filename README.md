@@ -6,6 +6,7 @@
   - [개요](#개요) 
   - [게임 설명](#게임-설명)
   - [게임 플레이 방식](#게임-플레이-방식)
+  - [와이어프레임](#와이어프레임)
 ## 개요
 
 |Alt_F4_AvoidPop|2024.05.16 ~ 2024.05.22| 개발언어 : C# <br> 게임엔진 : 유니티|   팀장 : 서정재<br> 팀원 : 정래규<br>  팀원 : 여현빈 <br> 팀원 : 김성훈 |
@@ -36,7 +37,14 @@
 - 2인 플레이 : 1번 플레이어는 A, d 2번 플레이어는 화살표 왼쪽, 오른쪽을 사용하여 각각 좌우로 움직입니다.
 
 
-# Team Notion
+## Team Notion
 https://teamsparta.notion.site/Alt-F4-ee66ec4267dd4809961b3a942f0ffc55
 
-# TroubleShooting
+
+## 와이어프레임
+![image](https://github.com/ChungRaeGyu/Alt_F4_AvoidPop_CODE/assets/125470068/5cf3a5bf-8652-4832-958e-7f76d87c0a75)
+
+
+## UML
+https://drive.google.com/file/d/1QHPmVl6Nj8ii2XEyXZDTLgR_nid5XMWm/view?usp=sharing
+## TroubleShooting
