@@ -6,7 +6,7 @@
   - [개요](#개요) 
   - [게임 설명](#게임-설명)
   - [게임 플레이 방식](#게임-플레이-방식)
-  - [Team Notion](#Team Notion)
+  - [Team Notion](#Team-Notion)
   - [와이어프레임](#와이어프레임)
   - [UML](#UML)
   - [TroubleShooting](#TroubleShooting)
@@ -56,4 +56,4 @@ https://drive.google.com/file/d/1QHPmVl6Nj8ii2XEyXZDTLgR_nid5XMWm/view?usp=shari
 - 원인 : 선택할 수 있는 캐릭터의 배열이 1개만 생성되어 있어서 2p에서 변경을 하여도 1p의 캐릭터만 인식되고 있었다.
 - 해결법 : 2p의 캐릭터를 선택할 수 있는 배열을 하나 더 만들어주고 DataManager에서도 2p의 캐릭터 선택 정보를 읽을 수 있게 변수를 선언해주었다. 
 ### 정래규
-[TroubleShooting입니다](./Character/README.md)
+- [TroubleShooting입니다](./Character/README.md)
