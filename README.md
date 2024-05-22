@@ -51,9 +51,20 @@ https://teamsparta.notion.site/Alt-F4-ee66ec4267dd4809961b3a942f0ffc55
 ## UML
 https://drive.google.com/file/d/1QHPmVl6Nj8ii2XEyXZDTLgR_nid5XMWm/view?usp=sharing
 ## TroubleShooting
-### 서정재
+#### 서정재
 - 문제 :  2p 캐릭터 선택 창에서 2p의 캐릭터를 바꿔도 1p 선택 창이 계속 바뀌었던 문제
 - 원인 : 선택할 수 있는 캐릭터의 배열이 1개만 생성되어 있어서 2p에서 변경을 하여도 1p의 캐릭터만 인식되고 있었다.
 - 해결법 : 2p의 캐릭터를 선택할 수 있는 배열을 하나 더 만들어주고 DataManager에서도 2p의 캐릭터 선택 정보를 읽을 수 있게 변수를 선언해주었다. 
-### 정래규
+#### 정래규
 - [TroubleShooting입니다](./Character/README.md)
+
+#### 여현빈
+- 문제 : 플레이 중 시간이 지날수록 렉이 발생하며 게임의 매끄러운 진행의 문제발생
+- 원인 : 낙하물 오브젝트가 시간이 지날수록 Hierarchy에 비활성화된 오브젝트가 과잉 생성으로 렉을 유발함
+- 해결법: 낙하물 오브젝트 스크립트를 Object Pooling 방식으로 다시 만들어 생성되는 양을 조절해 해결
+
+#### 김성훈
+- 문제 : GUI 팝업의 닫기 버튼을 누를 때 효과음이 재생되지 않는 현상 발생
+- 원인 : Audio Source를 닫기 버튼 입력 시 비활성화 할 UI에 할당하여 문제 발생
+          닫기 버튼 입력 시 GUI 게임 오브젝트를 비활성화 하는데 이 때 Audio Source의 재생을 수행하지 않고 비활성화됨
+- 해결법 : Audio 오브젝트를 따로 제작하여 효과음 재생을 담당하는 방식으로 문제 해결
