@@ -48,3 +48,7 @@ https://teamsparta.notion.site/Alt-F4-ee66ec4267dd4809961b3a942f0ffc55
 ## UML
 https://drive.google.com/file/d/1QHPmVl6Nj8ii2XEyXZDTLgR_nid5XMWm/view?usp=sharing
 ## TroubleShooting
+### 서정재
+- 문제 :  2p 캐릭터 선택 창에서 2p의 캐릭터를 바꿔도 1p 선택 창이 계속 바뀌었던 문제
+- 원인 : 선택할 수 있는 캐릭터의 배열이 1개만 생성되어 있어서 2p에서 변경을 하여도 1p의 캐릭터만 인식되고 있었다.
+- 해결법 : 2p의 캐릭터를 선택할 수 있는 배열을 하나 더 만들어주고 DataManager에서도 2p의 캐릭터 선택 정보를 읽을 수 있게 변수를 선언해주었다. 
