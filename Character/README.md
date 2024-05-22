@@ -39,4 +39,4 @@ ActionMap을 Player1 ,Player2로 나누어서 각각 A,D와 왼쪽화살표, 오
 |Start()|InputSystem에서 Invoke로 보내주는 값을 받아줄 핸들러를 등록한다.|
 |Anim(Vecotr2 vector)|핸들러이고,  움직임에 따라서 애니메이터의 값을 변경해준다.|
 
-[돌아가기](#./../README.md)
+[돌아가기](#../README.md)
