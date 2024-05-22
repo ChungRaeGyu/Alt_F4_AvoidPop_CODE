@@ -12,6 +12,10 @@ ActionMap을 Player1 ,Player2로 나누어서 각각 A,D와 왼쪽화살표, 오
 # TroubleShooting
 ![image](https://github.com/ChungRaeGyu/Alt_F4_AvoidPop_CODE/assets/125470068/4a1be6eb-b081-41c8-b7ac-137eefbc3ae6)
 
+# UML
+![image](https://github.com/ChungRaeGyu/Alt_F4_AvoidPop_CODE/assets/125470068/dc9f263b-1091-4926-b4d3-3fa325e593f3)
+
+
 
 # 주요 메서드
 ### CharacterController
