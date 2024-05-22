@@ -10,6 +10,7 @@
   - [와이어프레임](#와이어프레임)
   - [UML](#UML)
   - [TroubleShooting](#TroubleShooting)
+  - [코드트리](#코드트리)
 ## 개요
 
 |Alt_F4_AvoidPop|2024.05.16 ~ 2024.05.22| 개발언어 : C# <br> 게임엔진 : 유니티|   팀장 : 서정재<br> 팀원 : 정래규<br>  팀원 : 여현빈 <br> 팀원 : 김성훈 |
@@ -68,3 +69,8 @@ https://drive.google.com/file/d/1QHPmVl6Nj8ii2XEyXZDTLgR_nid5XMWm/view?usp=shari
 - 원인 : Audio Source를 닫기 버튼 입력 시 비활성화 할 UI에 할당하여 문제 발생
           닫기 버튼 입력 시 GUI 게임 오브젝트를 비활성화 하는데 이 때 Audio Source의 재생을 수행하지 않고 비활성화됨
 - 해결법 : Audio 오브젝트를 따로 제작하여 효과음 재생을 담당하는 방식으로 문제 해결
+
+
+
+## 코드트리
+![image](https://github.com/ChungRaeGyu/Alt_F4_AvoidPop_CODE/assets/125470068/50881221-dbd5-4e60-aaa4-560c64503cd9)
